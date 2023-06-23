@@ -1,0 +1,5 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontLigatures": true
+}

@@ -1,0 +1,6 @@
+[
+    {
+        "key": "shift+meta+d",
+        "command": "workbench.action.toggleLightDarkThemes"
+    }
+]

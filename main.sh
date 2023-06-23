@@ -55,11 +55,17 @@ while [ "$CHOICE -ne 4" ]; do
             # Flatpak software
             sh install-flatpak-apps.sh &
 
-            # Install Julie
+            # Install Julie lang
             sh install-julia.sh &
 
-            # Install Rust
-            sh install-rust.sh
+            # Install Rust lang
+            sh install-rust.sh & 
+
+            # Install Helix editor
+            sh install-helix.sh &
+
+            # Install VS code editor
+            sh install-vscode.sh
 
             wait
 
