@@ -50,24 +50,22 @@ while [ "$CHOICE -ne 4" ]; do
         4)  echo "Installing Software"
 
             # DNF software
-            sh install-dnf-apps.sh &
+            sh install-dnf-apps.sh
 
             # Flatpak software
-            sh install-flatpak-apps.sh &
+            sh install-flatpak-apps.sh
 
             # Install Julie lang
-            sh install-julia.sh &
+            sh install-julia.sh
 
             # Install Rust lang
-            sh install-rust.sh & 
+            sh install-rust.sh 
 
             # Install Helix editor
-            sh install-helix.sh &
+            sh install-helix.sh
 
             # Install VS code editor
             sh install-vscode.sh
-
-            wait
 
             notify-send "Software has been installed" --expire-time=10
 
