@@ -12,7 +12,6 @@ org.kde.kdenlive \
 org.gimp.GIMP \
 org.blender.Blender \
 org.blender.Blender.Codecs \
-com.nextcloud.desktopclient.nextcloud \
 com.jgraph.drawio.desktop \
 com.leinardi.gst \
 com.github.micahflee.torbrowser-launcher \
